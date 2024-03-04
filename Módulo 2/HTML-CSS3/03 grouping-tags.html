@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping TAGS</title>
+    <style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0;
+}
+
+header{
+background-color: white;
+padding: 10px;
+margin: 10px;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+article{
+    background-color: lightgrey;
+}
+
+article > aside{
+    background-color: rgb(138, 138, 138);
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+nav > a{
+    background-color: rgb(75, 75, 75);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    background-color:brown;
+}
+
+footer > p{
+    margin: 0px;
+}
+
+</style>
+
+
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Menu 1</a>
+            <a href="#">Menu 2</a>
+            <a href="#">Menu 3</a>
+            <a href="#">Menu 4</a>
+        </nav>
+    </header>
+    <main>
+<section id="assuntos">
+    <article>
+        <h2>Notícias do Brasil</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos exercitationem nesciunt quidem molestias dolorum officiis quas placeat voluptatem harum dolore. Numquam nihil sed expedita velit dicta, culpa sequi. Sunt, nostrum?</p>
+        <aside>
+            Artigo escrito por Ricardo viscardi
+        </aside>
+    </article>
+</section>
+    </main>
+    <footer>
+        <p>Devenvolvido por Ricardo Viscardi</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+<style>
+
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: gray;
+}
+
+header{
+    background-color: white;    
+    box-shadow: 0px 10px 1px white;
+    text-align: center;
+    min-height: 100px;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+nav{
+    background-color: white;    
+    box-shadow: 1px 1px 20px white;
+    padding: 10px;
+}
+
+nav > a{
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    color: black;
+}
+
+nav >a:hover{
+    background-color: gray;
+    color: white;
+
+}
+
+header > h1{
+    margin: 2px;
+
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    min-width: 400px;
+    max-width: 1500px;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main h3{
+    background-image: linear-gradient(to right, rgb(150, 207, 242), transparent);
+    text-indent: 10px;
+    border-top-left-radius: 10px;
+}
+
+main img{
+    width: 100%;
+}
+
+div.video{
+    position: relative;
+    padding-bottom: 35%;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    width: 90%;
+    height: 100%;
+}
+
+main h3{
+    margin-top: 30px;
+}
+
+footer{
+    text-align: center;
+    background-image: linear-gradient(to bottom, gray, white);
+}
+
+
+</style>
+
+</head>
+<body>
+    <header>
+        <h1>SITE RESPONSIVO</h1>
+        <p>Enta mais sobre sites com responsividade aqui!</p>
+    </header>
+    <nav>
+        <a href="#">HOME</a>
+        <a href="#">CURIOSIDADES</a>
+        <a href="#">INTERNET</a>
+        <a href="#">IOS</a>
+    </nav>
+    <main>
+        <h2>Exemplo de Responsividade</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium tempora repellat, consectetur doloremque, quod dolorem iure velit sapiente mollitia optio molestias? Deserunt commodi corrupti consequuntur officiis necessitatibus ipsa velit odio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellat consequuntur expedita alias ipsum, eos, et molestiae recusandae quo, quas officia eius commodi velit repellendus ex libero saepe beatae hic.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis maxime repudiandae eveniet, harum neque illo corporis sapiente consectetur minus aliquid eaque consequatur amet vel debitis repellat inventore rem nemo quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam neque dolores officia. Odit quo sapiente itaque autem repellat nesciunt ipsa vitae sequi voluptatem! Cumque neque impedit corporis provident aut vero?</p>
+        <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/ArR-ctuKraE?si=6zUZGSAX06DutFBt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+        <h3> Responsividade Imagens</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa a quas voluptatum assumenda odio repellendus soluta voluptatibus quibusdam hic molestiae odit totam corrupti fugiat corporis, accusantium quo laboriosam natus esse.</p>
+        <picture>
+            <source media="(max-width: 800px)" srcset="imagens/canada-gnde.jpeg">
+            <img src="imagens/canada-gnde2.jpeg" alt="Imagem HTML">
+        </picture>
+    </main>
+    <footer>
+        Site desenvolvido por Ricardo Viscardi
+    </footer>
+</body>
+</html>
